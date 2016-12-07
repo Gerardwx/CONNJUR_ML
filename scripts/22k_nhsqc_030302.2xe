@@ -1,0 +1,29 @@
+#***********************************************
+#!/bin/csh 
+
+# XEasy Data Conversion Script 
+# Requires that the program spscan be installed 
+
+# Creating .Spscan file. This will overwrite an existing file! 
+rm -i ./.Spscan 
+touch .Spscan 
+echo "*traditional_calibration: off" >> .Spscan 
+echo "*spectra_path: ./" >> .Spscan 
+echo "*path: ./" >> .Spscan 
+sleep 1 
+
+#Create pipe2xeasy_a.spm conversion script. This will overwrite an exising file! 
+rm -i pipe2xeasy_a.spm 
+touch pipe2xeasy_a.spm 
+echo "access pipe ./22k_nhsqc_030302.header 22k_nhsqc_030302.param" >> pipe2xeasy_a.spm 
+echo "trafo read 22k_nhsqc_030302 full" >> pipe2xeasy_a.spm 
+echo "trafo scale ." >> pipe2xeasy_a.spm 
+echo "trafo write_xeasy ./22k_nhsqc_030302.3D.param" >> pipe2xeasy_a.spm 
+sleep 1 
+
+# Running Spscan 
+echo "check NMRPipe header before conversion to XEASY"
+sethdr 22k_nhsqc_030302.ft2 -tpFlag 0
+echo "print NMRPipe header for conversion to XEASY"
+showhdr -verb 22k_nhsqc_030302.ft2 > 22k_nhsqc_030302.header 
+spscan -m pipe2xeasy_a.spm 

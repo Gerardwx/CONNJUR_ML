@@ -1,0 +1,19 @@
+#! /bin/csh
+
+# Getting Help with NMRPipe
+# For a list of commands type:  nmrPipe -help
+# For a list of commands with all options type:  nmrPipe -help -allHelp
+# For help with a sinlge command type:  nmrPipe -fn command -help
+
+# Varian to NMRPipe Conversion Script 
+
+var2pipe -in ./fid   \
+   -xN           1024            -yN             256             \
+   -xT            512            -yT             128             \
+   -xMODE        Complex         -yMODE          Rance-Kay       \
+   -xSW          6712.5357       -ySW            1800.0000            \
+   -xOBS         499.8716        -yOBS           50.6515         \
+   -xCAR         4.772           -yCAR           117.5           \
+   -xLAB         1H              -yLAB           15N             \
+   -ndim         2               -aq2D           States          \
+-out ./22k_nhsqc_030302.pipe -verb -ov

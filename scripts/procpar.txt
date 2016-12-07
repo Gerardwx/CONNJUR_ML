@@ -1,0 +1,36 @@
+Program assumes channel 1 = H1, channel 2 = C13, and channel 3 = N15
+Program assume that the H1 center is 4.772 ppm unless explicitly entered
+Referencing should be performed using the *_0 frequency
+Note that some values may give bogus results if they do not exist, such as sw3 and ni3
+sw	   =  6712.5357 (Hz)
+sw	   =    13.4285 (ppm)
+sw1	   =  1800.0000 (Hz)
+sw1 (H1)   =     3.6009 (ppm)
+sw1 (N15)  =    35.5369 (ppm)
+sw1 (C13)  =    14.3207 (ppm)
+sw2	   =  2200.0000 (Hz)
+sw2 (H1)   =     4.4011 (ppm)
+sw2 (N15)  =    43.4340 (ppm)
+sw2 (C13)  =    17.5030 (ppm)
+sw3	   =     1.0000 (Hz)
+sw3 (H1)   =     0.0020 (ppm)
+sw3 (N15)  =     0.0197 (ppm)
+sw3 (C13)  =     0.0080 (ppm)
+sfrq	   =   499.8740 (MHz)
+sfrq_0	   =   499.8716 (MHz) (Use for Referencing)
+dfrq	   =   125.7069 (MHz)
+dfrq_0	   =   125.6925 (MHz) (Use for Referencing)
+dfrq2	   =    50.6575 (MHz)
+dfrq2_0	   =    50.6515 (MHz) (Use for Referencing)
+H1 center  =     4.7720 (ppm)
+C13 center =   114.9937 (ppm)
+N15 center =   117.5001 (ppm)
+np	   =       1024 (Real + Imaginary Points)
+ni	   =        128 (Complex Points) (2D)
+ni2	   =          0 (Complex Points) (3D)
+ni3	   =          1 (Complex Points) (4D)
+nt	   =         32 scans
+array	   =         "phase"
+gain	   =         36
+rp(phase0) =         110.684410646
+lp(phase1) =          0
