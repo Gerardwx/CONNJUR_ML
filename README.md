@@ -1,4 +1,4 @@
-# NMRSWML - NMR Spectral Workflow Markup Language
+# CONNJUR_ML - NMR Spectral Workflow Markup Language
 Summary  
 This project capitalizes on recent advances in the PREMIS data-model to create an object-oriented metadata framework for recording complex computational processes regarding NMR spectra.  
 
