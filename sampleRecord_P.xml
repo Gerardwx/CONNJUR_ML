@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NMRSWML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/gryk/NMRSpectra/master/schema.xml">
-    <spectrum>  <!-- migration -->
+<premis:premis xmlns:premis="http://www.loc.gov/premis/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:pbcore="http://www.pbcore.org/PBCore/PBCoreNamespace.html" 
+    xmlns:mix="http://www.loc.gov/standards/mix/mix.xsd"
+    xsi:schemaLocation="http://www.loc.gov/premis/v3 http://www.loc.gov/standards/premis/premis.xsd" version="3.0">
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_001</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur_ml:connjur_ml>
+                    <connjur_ml: xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/gryk/NMRSpectra/master/schema.xml">
+                        <spectrum>  <!-- migration -->
         <spectrumIdentifier>NHSQC_001</spectrumIdentifier>
         <spectralFormat>
             <formatName>nmrPipe</formatName>
@@ -39,6 +54,8 @@
             <sampling>uniform</sampling>
         </spectralAxis>
     </spectrum>
+                        </connjur_ml:connjur_ml>
+    </premis:significantProperties>
     <spectrum>  <!-- sol supress -->
         <spectrumIdentifier>NHSQC_002</spectrumIdentifier>
         <spectralFormat>
