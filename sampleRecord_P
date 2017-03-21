@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NMRSWML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/gryk/NMRSpectra/master/schema.xml">
+    <spectrum>  <!-- migration -->
+        <spectrumIdentifier>NHSQC_001</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">6012</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>1024</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>256</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- sol supress -->
+        <spectrumIdentifier>NHSQC_002</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">6012</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>1024</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>256</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- base correct -->
+        <spectrumIdentifier>NHSQC_003</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">6012</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>1024</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>256</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- apodization -->
+        <spectrumIdentifier>NHSQC_004</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">6012</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>1024</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>256</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- zerofill -->
+        <spectrumIdentifier>NHSQC_005</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">6012</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>2048</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>256</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- FT -->
+        <spectrumIdentifier>NHSQC_006</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">6012</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>2048</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>256</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- phase correct -->
+        <spectrumIdentifier>NHSQC_007</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">6012</sweepwidth>
+            <pointType>real</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>1024</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>256</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- base correct -->
+        <spectrumIdentifier>NHSQC_008</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">6012</sweepwidth>
+            <pointType>real</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>1024</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>256</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- extract -->
+        <spectrumIdentifier>NHSQC_009</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">3006</sweepwidth>
+            <pointType>real</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>256</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- TP -->
+        <spectrumIdentifier>NHSQC_010</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">3006</sweepwidth>
+            <pointType>real</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>256</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- Linear Predict -->
+        <spectrumIdentifier>NHSQC_011</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">3006</sweepwidth>
+            <pointType>real</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- Apodization -->
+        <spectrumIdentifier>NHSQC_012</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">3006</sweepwidth>
+            <pointType>real</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- zero fill -->
+        <spectrumIdentifier>NHSQC_013</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">3006</sweepwidth>
+            <pointType>real</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>1024</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>time</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- FT -->
+        <spectrumIdentifier>NHSQC_014</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">3006</sweepwidth>
+            <pointType>real</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>1024</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- phase correct -->
+        <spectrumIdentifier>NHSQC_015</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">3006</sweepwidth>
+            <pointType>real</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrum>  <!-- baseline -->
+        <spectrumIdentifier>NHSQC_016</spectrumIdentifier>
+        <spectralFormat>
+            <formatName>nmrPipe</formatName>
+            <formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</formatSpecification>
+            <formatByteOrder>BigEndian</formatByteOrder>
+            <formatNumericType>IEEE 754-2008 binary32</formatNumericType>
+        </spectralFormat>
+        <spectralDimensions>2</spectralDimensions>
+        <spectralLayout/>
+        <spectralAxis>
+            <sweepwidth units="Hz">3006</sweepwidth>
+            <pointType>real</pointType>
+            <spacingUnits units="us">166.7</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>=</sign>
+            <phaseShift>none</phaseShift>
+            <encoding>echo-anti-echo</encoding>
+            <decoupledNucleus>15N</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+        <spectralAxis>
+            <sweepwidth units="Hz">2200</sweepwidth>
+            <pointType>complex</pointType>
+            <spacingUnits units="us">454.5</spacingUnits>
+            <totalPoints>512</totalPoints>
+            <sign>+</sign>
+            <phaseShift>none</phaseShift>
+            <decoupledNucleus>1H</decoupledNucleus>
+            <constantPhase>0.0</constantPhase>
+            <linearPhase>0.0</linearPhase>
+            <domain>frequency</domain>
+            <sampling>uniform</sampling>
+        </spectralAxis>
+    </spectrum>
+    <spectrometer>
+        <strength units="T">14</strength>
+        <channel>
+            <nucleus>1H</nucleus>
+            <frequency units="Mhz">599.98</frequency>
+        </channel>
+        <channel>
+            <nucleus>13C</nucleus>
+            <frequency units="Mhz">150.54</frequency>
+        </channel>
+        <channel>
+            <nucleus>15N</nucleus>
+            <frequency units="Mhz">60.78</frequency>
+        </channel>
+    </spectrometer>
+    <lineage>
+        <computationalLineageIdentifierType></computationalLineageIdentifierType>
+        <computationalLineageIdentifierValue></computationalLineageIdentifierValue>
+        <computationalLineageInstantiationDate></computationalLineageInstantiationDate>
+        <computationalLineageCreator></computationalLineageCreator>
+        <computationalLineageOrigin></computationalLineageOrigin>
+        <computationalLineageFork>
+            <computationalLineageForkDate></computationalLineageForkDate>
+            <computatationlLineageForkType></computatationlLineageForkType>
+            <computationalLineageForkSubType></computationalLineageForkSubType>
+            <computationalLineageForkValue></computationalLineageForkValue>
+        </computationalLineageFork>
+        <computationalLineageReferenceRepository>
+            <computationalLineageReferenceRepositoryIndentiferType></computationalLineageReferenceRepositoryIndentiferType>
+            <computationalLineageReferenceRepositoryIndentiferValue></computationalLineageReferenceRepositoryIndentiferValue>
+        </computationalLineageReferenceRepository>
+        <computationalLineageLinkingExternalEventIdentifier>
+            <computationalLineageLinkingExternalEventType></computationalLineageLinkingExternalEventType>
+            <computationalLineageLinkingExternalEventValue></computationalLineageLinkingExternalEventValue>
+            <computationalLineageLinkingEmbeddedObjectType></computationalLineageLinkingEmbeddedObjectType>
+            <computationalLineageLinkingEmbeddedObjectValue></computationalLineageLinkingEmbeddedObjectValue>
+        </computationalLineageLinkingExternalEventIdentifier>
+        <computationalLineageEmbeddedObjectGroup></computationalLineageEmbeddedObjectGroup>
+    </lineage>
+</NMRSWML>
