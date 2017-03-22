@@ -2,10 +2,10 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
     vc:minVersion="1.0" vc:maxVersion="1.1">
-    <xs:element name="NMRSWML" type="NMRSWMLComplexType"/>
-    <!--   		An instance is  (1) One or more of <spectrum>, <spectrometer>, <event>, <agent> all wrapped within a <NMRSWML> container; 
+    <xs:element name="CONNJUR_ML" type="CONNJUR_ComplexType"/>
+    <!--   		An instance is  (1) One or more of <spectrum>, <spectrometer>, <event>, <agent> all wrapped within a <CONNJUR_ML> container; 
           ******************************************************************************************** *                      -->
-    <xs:complexType name="NMRSWMLComplexType">
+    <xs:complexType name="CONNJUR_ComplexType">
         <xs:sequence>
             <xs:element name="spectrum" type="spectrumComplexType" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="spectrometer" type="spectrometerComplexType" minOccurs="0" maxOccurs="1"/>
