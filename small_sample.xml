@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<premis:premis xmlns:premis="http://www.loc.gov/premis/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:connjur="https://raw.githubusercontent.com/CONNJUR/CONNJUR_ML/master/connjur_ml.xsd"
+    xsi:schemaLocation="http://www.loc.gov/premis/v3 http://www.loc.gov/standards/premis/premis.xsd" version="3.0">
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_001</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- migration -->
+                    <connjur:spectrumIdentifier>NHSQC_001</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">6012</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>1024</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+</premis:premis>
