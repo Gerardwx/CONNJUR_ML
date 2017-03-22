@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NMRSWML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/gryk/NMRSpectra/master/schema.xml">
+<CONNJUR_ML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/CONNJUR/CONNJUR_ML/master/connjur_ml.xml">
     <spectrum>  <!-- migration -->
         <spectrumIdentifier>NHSQC_001</spectrumIdentifier>
         <spectralFormat>
