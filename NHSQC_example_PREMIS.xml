@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<premis:premis xmlns:premis="http://www.loc.gov/premis/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:connjur="https://raw.githubusercontent.com/CONNJUR/CONNJUR_ML/master/connjur_ml.xsd"
+    xsi:schemaLocation="http://www.loc.gov/premis/v3 http://www.loc.gov/standards/premis/premis.xsd" version="3.0">
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_000</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>Varian</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- acquisition -->
+                    <connjur:spectrumIdentifier>NHSQC_000</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>Varian</connjur:formatName>
+                        <connjur:formatSpecification>need to fill in</connjur:formatSpecification>
+                        <connjur:formatByteOrder>??</connjur:formatByteOrder>
+                        <connjur:formatNumericType>??</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">6012</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>1024</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_001</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- translation -->
+                    <connjur:spectrumIdentifier>NHSQC_001</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">6012</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>1024</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_002</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Solvent Supression -->
+                    <connjur:spectrumIdentifier>NHSQC_002</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">6012</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>1024</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_003</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Baseline Correct -->
+                    <connjur:spectrumIdentifier>NHSQC_003</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">6012</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>1024</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_004</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- apodization -->
+                    <connjur:spectrumIdentifier>NHSQC_004</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">6012</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>1024</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_005</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Zerofill -->
+                    <connjur:spectrumIdentifier>NHSQC_005</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">6012</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>2048</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_006</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Fourier Transform -->
+                    <connjur:spectrumIdentifier>NHSQC_006</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">6012</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>2048</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_007</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Phase Correction & delete Imaginaries -->
+                    <connjur:spectrumIdentifier>NHSQC_007</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">6012</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>1024</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_008</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Baseline Correction -->
+                    <connjur:spectrumIdentifier>NHSQC_008</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">6012</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>1024</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_009</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Extract Left Half -->
+                    <connjur:spectrumIdentifier>NHSQC_009</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">3006</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_010</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Transpose -->
+                    <connjur:spectrumIdentifier>NHSQC_010</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">3006</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>256</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_011</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Linear Prediction -->
+                    <connjur:spectrumIdentifier>NHSQC_011</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">3006</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_012</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Apodization -->
+                    <connjur:spectrumIdentifier>NHSQC_012</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">3006</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_013</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Zero Fill -->
+                    <connjur:spectrumIdentifier>NHSQC_013</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">3006</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>1024</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>time</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_014</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Fourier Transform -->
+                    <connjur:spectrumIdentifier>NHSQC_014</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">3006</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>complex</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>1024</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_015</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Phase Correct & delete imaginaries -->
+                    <connjur:spectrumIdentifier>NHSQC_015</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">3006</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:object xsi:type="premis:representation">
+        <premis:objectIdentifier>
+            <premis:objectIdentifierType>local</premis:objectIdentifierType>
+            <premis:objectIdentifierValue>NHSQC_016</premis:objectIdentifierValue> 
+        </premis:objectIdentifier>
+        <premis:significantProperties>
+            <premis:significantPropertiesType>format</premis:significantPropertiesType>
+            <premis:significantPropertiesValue>nmrPipe</premis:significantPropertiesValue>
+            <premis:significantPropertiesExtension>
+                <connjur:spectrum>  <!-- Baseline Correct -->
+                    <connjur:spectrumIdentifier>NHSQC_016</connjur:spectrumIdentifier>
+                    <connjur:spectralFormat>
+                        <connjur:formatName>nmrPipe</connjur:formatName>
+                        <connjur:formatSpecification>https://www.ibbr.umd.edu/nmrpipe/install.html</connjur:formatSpecification>
+                        <connjur:formatByteOrder>BigEndian</connjur:formatByteOrder>
+                        <connjur:formatNumericType>IEEE 754-2008 binary32</connjur:formatNumericType>
+                    </connjur:spectralFormat>
+                    <connjur:spectralDimensions>2</connjur:spectralDimensions>
+                    <connjur:spectralLayout/>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">3006</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">166.7</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>=</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:encoding>echo-anti-echo</connjur:encoding>
+                        <connjur:decoupledNucleus>15N</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                    <connjur:spectralAxis>
+                        <connjur:sweepwidth units="Hz">2200</connjur:sweepwidth>
+                        <connjur:pointType>real</connjur:pointType>
+                        <connjur:spacingUnits units="us">454.5</connjur:spacingUnits>
+                        <connjur:totalPoints>512</connjur:totalPoints>
+                        <connjur:sign>+</connjur:sign>
+                        <connjur:phaseShift>none</connjur:phaseShift>
+                        <connjur:decoupledNucleus>1H</connjur:decoupledNucleus>
+                        <connjur:constantPhase>0.0</connjur:constantPhase>
+                        <connjur:linearPhase>0.0</connjur:linearPhase>
+                        <connjur:domain>frequency</connjur:domain>
+                        <connjur:sampling>uniform</connjur:sampling>
+                    </connjur:spectralAxis>
+                </connjur:spectrum>
+            </premis:significantPropertiesExtension>
+        </premis:significantProperties>
+    </premis:object>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_000</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>acquisition</premis:eventType>
+        <premis:eventDateTime>2003-03-02</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Pointer to sample details?</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for molecular components.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_000</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_001</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>translation</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Spectrum Translator</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CST.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_001</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_002</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data cleaning</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Solvent Suppression</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_002</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_003</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data cleaning</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Baseline Correction</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_003</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_004</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data cleaning</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Apodization</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_004</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_005</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data extension</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Zero Fill</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_005</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_006</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Transformation</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Fourier Transform</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_006</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_007</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data Correction</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Phase Correction and Delete Imaginaries</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_007</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_008</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data cleaning</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Baseline Correction</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_008</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_009</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data reduction</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Extract Left Half</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_009</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_010</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data Manipulation</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Transpose</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_010</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_011</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data cleaning</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Linear Prediction</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_011</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_012</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data cleaning</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Apodization</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_012</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_013</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data cleaning</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Zero Fill</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_013</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_014</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Tranformation</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Fourier Transform</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_014</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_015</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data Cleaning</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail>Phase Correction</premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>local</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_015</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:event>
+        <premis:eventIdentifier>
+            <premis:eventIdentifierType>local</premis:eventIdentifierType>
+            <premis:eventIdentifierValue>Event_016</premis:eventIdentifierValue>
+        </premis:eventIdentifier>
+        <premis:eventType>Data cleaning</premis:eventType>
+        <premis:eventDateTime>2017-03-20</premis:eventDateTime>
+        <premis:eventDetailInformation>
+            <premis:eventDetail></premis:eventDetail>
+            <!--premis:eventDetailExtension>Extension for CWB.</premis:eventDetailExtension-->
+        </premis:eventDetailInformation>
+        <premis:linkingObjectIdentifier>
+            <premis:linkingObjectIdentifierType>Baseline Correction</premis:linkingObjectIdentifierType>
+            <premis:linkingObjectIdentifierValue>NHSQC_016</premis:linkingObjectIdentifierValue>
+        </premis:linkingObjectIdentifier>
+    </premis:event>
+    <premis:agent>
+        <premis:agentIdentifier>
+            <premis:agentIdentifierType>local</premis:agentIdentifierType>
+            <premis:agentIdentifierValue>SP_001</premis:agentIdentifierValue>
+        </premis:agentIdentifier>
+        <premis:agentName>UCONN Health Varian 600</premis:agentName>
+        <premis:agentType>hardware</premis:agentType>
+        <premis:agentNote>Triple Resonance warm probe</premis:agentNote>
+        <premis:agentExtension>
+            <connjur:spectrometer>
+                <connjur:strength units="T">14</connjur:strength>
+                <connjur:channel>
+                    <connjur:nucleus>1H</connjur:nucleus>
+                    <connjur:frequency units="Mhz">599.98</connjur:frequency>
+                </connjur:channel>
+                <connjur:channel>
+                    <connjur:nucleus>13C</connjur:nucleus>
+                    <connjur:frequency units="Mhz">150.54</connjur:frequency>
+                </connjur:channel>
+                <connjur:channel>
+                    <connjur:nucleus>15N</connjur:nucleus>
+                    <connjur:frequency units="Mhz">60.78</connjur:frequency>
+                </connjur:channel>
+            </connjur:spectrometer>
+        </premis:agentExtension>
+        <premis:linkingEventIdentifier>
+            <premis:linkingEventIdentifierType>local</premis:linkingEventIdentifierType>
+            <premis:linkingEventIdentifierValue>EVENT_000</premis:linkingEventIdentifierValue>
+        </premis:linkingEventIdentifier>
+    </premis:agent>
+</premis:premis>
