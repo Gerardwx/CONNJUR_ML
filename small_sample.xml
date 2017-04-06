@@ -54,3 +54,39 @@
         </premis:significantProperties>
     </premis:object>
 </premis:premis>
+<computationalLineage>
+        <computationalLineageIdentifierType authority="urn" authorityURI="http://id.loc.gov/vocabulary/identifiers" valueURI="http://id.loc.gov/vocabulary/identifiers/id/urn">urn</computationalLineageIdentifierType>
+        <computationalLineageIdentifierValue>softwareStore:program:1</computationalLineageIdentifierValue>
+        <computationalLineageInstantiationDate>2017-04-04</computationalLineageInstantiationDate>
+        <!--USE ISO Dates-->
+        <computationalLineageCreator>Computer Programmer</computationalLineageCreator>
+        <!--add Scopus ID or Orchid here to enhance LOD-->
+        <computationalLineageOrigin>A lab</computationalLineageOrigin>
+        <!--add Scopus ID or Orchid here to enhance LOD-->\
+        <premis:premis>
+        <!--Repeat as needed to capture versions of the same unforked software-->
+        <!--Describe the computational lineage using class-level URNs-->
+            <premis:object xsitype="premis:environment">
+                <premis:objectIdentifier>
+                    <premis:objectIdentifierType>local</premis:objectIdentifierType>
+                    <premis:objectIdentifierValue>1</premis:objectIdentifierValue> 
+                </premis:objectIdentifier>
+            </premis:object>
+            <!--repeat as needed to capture dependency-->
+        </premis:premis>
+        <computationalLineageFork>
+            <!--class-level forking to allow new use/significant changes to software beyond versions-->
+            <computationalLineageForkDate>2017-04-04</computationalLineageForkDate>
+            <computatationlLineageForkType>Branch</computatationlLineageForkType>
+            <computationalLineageForkSubType>ischildof</computationalLineageForkSubType>
+            <computationalLineageForkID>softwareStore:program:2</computationalLineageForkID>
+        </computationalLineageFork>
+        <computationalLineageLinkingExternalEventIdentifier>
+            <!--allows for the creation of a hybrid type to target members of the class from the workflow by their local values-->
+            <computationalLineageLinkingExternalEventActorValue>local:1</computationalLineageLinkingExternalEventActorValue>
+            <computationalLineageLinkingExternalEventType>migration</computationalLineageLinkingExternalEventType>
+            <computationalLineageLinkingExternalEventValue>eventSequence:1:1</computationalLineageLinkingExternalEventValue>
+            <computationalLineageLinkingEmbeddedObjectType>Representation</computationalLineageLinkingEmbeddedObjectType>
+            <computationalLineageLinkingEmbeddedObjectValue>NHSQC_001</computationalLineageLinkingEmbeddedObjectValue>
+        </computationalLineageLinkingExternalEventIdentifier>
+</computationalLineage>
